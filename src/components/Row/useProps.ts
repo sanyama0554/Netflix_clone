@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "../../axios";
+import { Movie } from "../../type";
 
 export const useProps = (fetchUrl: string) => {
   const [movies, setMovies] = useState<Movie[]>([]);
