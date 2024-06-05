@@ -3,7 +3,7 @@ import { useProps } from "./useProps";
 
 const Header = () => {
   return (
-    <></>
+    <Layout {...useProps()}/>
   );
 }
 
