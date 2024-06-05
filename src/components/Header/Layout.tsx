@@ -5,7 +5,7 @@ type Props = {
 const Layout = ({ show }: Props) => {
   return (
     <div
-      className={`fixed top-0 w-full h-16 p-5 z-10 flex justify-between transition-all ease-in duration-500
+      className={`fixed top-0 left-0 w-full h-16 p-5 z-10 flex justify-between transition-all ease-in duration-500
         ${show ? "bg-black" : ""}
       `}
     >
