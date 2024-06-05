@@ -1,10 +1,8 @@
-import { useProps } from "../Row/useProps";
+import { useProps } from "./useProps";
 import Layout from "./Layout";
 
 const Banner = () => {
-  return (
-    return <Layout {...useProps()}/>;
-  );
+  return <Layout {...useProps()}/>;
 }
 
 export default Banner;
